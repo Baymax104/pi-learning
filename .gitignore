@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.research/
+test-results/
+playwright-report/
+.playwright-cli/
+.vercel/
+*.local
+*.tsbuildinfo
+.env*
+!.env.example

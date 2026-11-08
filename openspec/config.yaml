@@ -1,0 +1,14 @@
+schema: spec-driven
+context: |
+  纯前端 Pi Agent 中文学习网站；教学对象 earendil-works/pi。
+  TypeScript + React + Vite + ESLint，npm；Windows PowerShell。
+  面向初学者，结合正文、可控制动画、交互实验和固定 commit 源码导读。
+  浏览器本地模拟，无后端、无模型密钥、无真实工具执行。
+  实现前核对官方源码；行为变更使用 Playwright 验证。
+rules:
+  proposal:
+    - 用中文描述动机和范围，能力名称使用 kebab-case。
+  specs:
+    - 每个 requirement 必须有可验证的 scenario。
+  tasks:
+    - 将实现和验证划分成可勾选的小任务。
