@@ -2,6 +2,12 @@
 
 面向初学者的 Pi Agent 中文交互学习网站。以 [earendil-works/pi](https://github.com/earendil-works/pi) 为教学对象，通过讲解、可控制动画、概念实验和真实源码，理解 Agent 如何从语言走向行动。
 
+## 在线部署
+
+Vercel 已连接 GitHub 仓库。推送到 `main` 后自动构建并更新生产站点，推送到仓库的其他分支会创建 Preview。构建配置位于 `vercel.json`，使用 `npm ci` 安装依赖，执行 `npm run build`，并发布 `dist/` 中的静态文件。
+
+[在线学习](https://pi-learning-nine.vercel.app/) · [GitHub 仓库](https://github.com/Baymax104/pi-learning) · [Vercel 部署记录](https://vercel.com/baymax104s-projects/pi-learning/deployments)
+
 ## 本地运行
 
 建议使用 Node.js 24 LTS 和 npm。
@@ -78,6 +84,6 @@ openspec/changes/  # 本次提案、设计、规范和任务
 
 ## 变更管理
 
-本次变更为 `build-pi-learning`，使用 OpenSpec 的 `spec-driven` 工作流。后续中大型功能先更新提案/规范和任务，再实现与验证。Git 已初始化，未创建提交。
+项目使用 OpenSpec 的 `spec-driven` 工作流。中大型功能先更新提案、规范和任务，再实现与验证。
 
 该网站是独立的非官方学习项目。Pi 上游源码采用 MIT License，相关署名与许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
